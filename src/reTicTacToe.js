@@ -104,7 +104,9 @@ export function Game() {
                 <Board saveHistory={saveHistory} squares={currSquares} />
             </div>
             <div className="game-info">
-                {mapBtn}
+                <ol>
+                    {mapBtn}
+                </ol>
             </div>
         </div>
     )
